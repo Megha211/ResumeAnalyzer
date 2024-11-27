@@ -68,7 +68,7 @@ def analyze_resume(resume_content, job_description):
                 "Content-Type": "application/json",
             },
             json={
-                "model": "llama-3.2-90b-text-preview",  
+                "model": "llama-3.2-90b-vision-preview",  
                 "messages": messages,
                 "temperature": 0.2,
                 "max_tokens": 500,
